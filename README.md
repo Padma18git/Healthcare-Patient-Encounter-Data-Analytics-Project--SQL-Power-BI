@@ -104,7 +104,9 @@ Inserted the values for data extraction, validation, and analysis.
 - The PowerBI dashboard link is included in /PowerBI dashboards of the project and a screenshot of the Final Dashboard.
 - All the outputs of the queries are in /Screenshots of the Output/SQL queries output screenshots.doc
 
-
+## Contact
+Padmavati 
+padmavbh@gmail.com
 
 
 
