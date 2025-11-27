@@ -101,7 +101,8 @@ Inserted the values for data extraction, validation, and analysis.
 - Export query results to CSV (optional)
 - Open the Power BI file
 - load CSVs
-
+- The PowerBI dashboard link is included in /PowerBI dashboards of the project and a screenshot of the Final Dashboard.
+- All the outputs of the queries are in /Screenshots of the Output/SQL queries output screenshots.doc
 
 
 
