@@ -19,23 +19,23 @@ This project demonstrates end-to-end healthcare analytics using PostgreSQL, SQL 
 - `screenshots/` → visuals and reports
 
 - ## 🔹 Methodology
-  # 1. Database Design
-     # Tables Created
- # patients
+  ## 1. Database Design
+     ## Tables Created
+ ## patients
   - patient_id
   - first_name
   - last_name
   - date_of_birth
   - gender
   - phone
-# visits
+## visits
 - visit_id
 - patient_id
 - visit_date
 - provider_id
 - reason_of_visit
 
-# lab results table
+## lab results table
 - lab_id
 - patient_id
 - test_name
@@ -43,7 +43,7 @@ This project demonstrates end-to-end healthcare analytics using PostgreSQL, SQL 
 - result_unit
 - test_date
 
-# insurance claims table
+## insurance claims table
 - claim_id
 - patient_id
 - visit_id
@@ -54,19 +54,19 @@ This project demonstrates end-to-end healthcare analytics using PostgreSQL, SQL 
 
 - All tables created included in /SQL/create table queries.doc.
 
-# 2. Insert sample healthcare data
+## 2. Insert sample healthcare data
 Inserted the values for data extraction, validation, and analysis.
 - All data inserted in to tables are included in /SQL/Insert data into table queries.doc.
 
-# 3. Data Extraction SQL queries
+## 3. Data Extraction SQL queries
 - All data extraction queries in PostGreSql are included in /SQL/Data Extraction queries.doc.
 
-# 4. Data validation queries
+## 4. Data validation queries
 (to check for missing values, wrong dates, duplicate patients, invalid claims, etc.)
 - All data validation queries in are included in /SQL/Data validation queries.doc.
 
-# 5. Data Quality Rules 
-# Completeness Rules 
+## 5. Data Quality Rules 
+## Completeness Rules 
 1.	Patient first/last name must not be NULL
 2.	Patient date of birth must be present
 3.	Visits must have a reason
@@ -74,10 +74,10 @@ Inserted the values for data extraction, validation, and analysis.
 5.	Claims must have amount and status
 - All data quality rules and queries are included in /SQL/Data quality rules.doc.
 
-# 6. Data evaluation queries & Insights SQL queries
+## 6. Data evaluation queries & Insights SQL queries
 - All data evaluation and KPI metrics queries are included in /SQL/Data evaluation queries.doc.
 
-# 🔹 Power BI Dashboard
+## 🔹 Power BI Dashboard
 ## The final dashboard includes:
 ## KPI Cards
 - Total Visits Per Provider
@@ -95,7 +95,7 @@ Inserted the values for data extraction, validation, and analysis.
 - Row 1 → KPI Cards
 - Row 2 → Visuals and Table
 
-# 🔹 How to reproduce
+## 🔹 How to reproduce
 - Clone the repo
 - Run SQL scripts in PostgreSQL
 - Export query results to CSV (optional)
