@@ -9,10 +9,9 @@ This project demonstrates end-to-end healthcare analytics using PostgreSQL, SQL 
 - Interactive Power BI dashboard
 
 ## 🔹 Tools Used
-- PostgreSQL
-- pgAdmin 4
-- SQL
-- Power BI Desktop
+- PostgreSQL (pgAdmin) — data modeling & SQL
+- Power BI Desktop — dashboard visualization
+- GitHub — version control & portfolio presentation
 
 ## 🔹 Project Structure
 - `sql/` → table creation, inserts, and analysis SQL
@@ -78,17 +77,37 @@ Inserted the values for data extraction, validation, and analysis.
 # 6. Data evaluation queries & Insights SQL queries
 - All data evaluation and KPI metrics queries are included in /SQL/Data evaluation queries.doc.
 
-## 🔹 Power BI Dashboard
-# The final dashboard includes:
-# KPI Cards
+# 🔹 Power BI Dashboard
+## The final dashboard includes:
+## KPI Cards
 - Total Visits Per Provider
 - Total No of Patient Visits
 - Sum of Average Claim Amount
 - Top 5 Highest Claim Amount
 
-# Visuals
+## Visuals
 - Claims Processed Late Table
 - Sum of Total Claimed BarChart
 - Sum of Total Visits Barchart
 - Sum of Claim Amount By Claim Status PieChart
+
+##  A clean, 1-page dashboard with:
+- Row 1 → KPI Cards
+- Row 2 → Visuals and Table
+
+# 🔹 How to reproduce
+- Clone the repo
+- Run SQL scripts in PostgreSQL
+- Export query results to CSV (optional)
+- Open the Power BI file
+- load CSVs
+
+
+
+
+
+
+
+
+ 
 
